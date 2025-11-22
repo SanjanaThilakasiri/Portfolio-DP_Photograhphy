@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="DanaLogo/Asset.png" class="navlogo" />
+        </a>
+        <button
+          class="navbar-toggler navtoggler2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="portfolio.html">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid mt-4 col-lg-12">
+      <h1 class="text-center">CONTACT US ANYTIME</h1>
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <pre><p>
+071 88 33 105
+mr.pasiya@gmail.com
+          </p></pre>
+        </div>
+
+        <div class="col-lg-4">
+          <pre><p>
+259/B,
+Pokunuwita,
+Horana, Sri Lanka.
+          </p></pre>
+        </div>
+
+        <div class="col-lg-4">
+          <form action="src/process_form.php" method="POST" class="col g-3 mt-2">
+            <div class="col">
+              <label>First Name</label>
+              <input
+                type="text"
+                name="first_name"
+                class="form-control"
+                placeholder="Enter Your First Name"
+                required
+              />
+            </div>
+            <div class="col">
+              <label>Last Name</label>
+              <input
+                type="text"
+                name="last_name"
+                class="form-control"
+                placeholder="Enter Your Last Name"
+                required
+              />
+            </div>
+            <div class="col">
+              <label>E-mail</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                placeholder="Enter Your E-mail"
+                required
+              />
+            </div>
+            <div class="col">
+              <label>Phone Number</label>
+              <input
+                type="text"
+                name="phone"
+                class="form-control"
+                placeholder="+94 01 234 567 89"
+              />
+            </div>
+            <div class="col">
+              <label>Message</label>
+              <textarea
+                name="message"
+                class="form-control"
+                rows="3"
+                placeholder="Enter Your Message, Feedback, Questions Here"
+                required
+              ></textarea>
+            </div>
+            <div class="col mt-3 mb-3">
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-center text-lg-start">
+      <div class="text-center p-3 text-light">
+        Designed By:
+        <a class="text-light" href="https://www.facebook.com/sanjana.thilakasiri">Sanjana Thilakasiri</a>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

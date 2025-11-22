@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title></title>
+  </head>
+  <body>
+    <!--Navebar Strat-->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="DanaLogo/Asset.png" class="navlogo" />
+        </a>
+        <button
+          class="navbar-toggler navtoggler2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="potfolio.html"
+                >PORTFOLIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Navebar End-->
+    <h4 class="text-center">Dulitha's Birthday Celebration</h4>
+
+    <div class="container-fluid col-lg-12">
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="picdivportrait">
+            <img
+              class="imgp"
+              src="pics/New folder (1)/FB_IMG_1702288041643.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+          <div class="picdivportrait">
+            <img
+              class="imgp"
+              src="pics/New folder (1)/FB_IMG_1702288060518.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="picdivland">
+            <img
+              class="imgl"
+              src="pics/New folder (1)/FB_IMG_1701580852070.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+          <div class="picdivportrait">
+            <img
+              class="imgp"
+              src="pics/New folder (1)/FB_IMG_1701580824271.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+
+          <div class="picdivland">
+            <img
+              class="imgl"
+              src="pics/New folder (1)/FB_IMG_1701580865276.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pivdivportraitlarge">
+            <img
+              src="pics/New folder (1)/FB_IMG_1701580833458.jpg"
+              class="imgp"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+        </div>
+
+        <div class="col-lg-2">
+          <div class="picdivland">
+            <img
+              class="imgl"
+              src="pics/New folder (1)/FB_IMG_1701580887692.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+          <div class="picdivportrait">
+            <img
+              class="imgp"
+              src="pics/New folder (1)/FB_IMG_1701580827889.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+
+          <div class="picdivland">
+            <img
+              class="imgl"
+              src="pics/New folder (1)/FB_IMG_1701580843570.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="picdivportrait">
+            <img
+              class="imgp"
+              src="pics/New folder (1)/FB_IMG_1702288066711.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+          <div class="picdivportrait">
+            <img
+              class="imgp"
+              src="pics/New folder (1)/FB_IMG_1702288055319.jpg"
+              alt=""
+              onclick="myFunction(this);"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--img viewr-->
+    <div class="fullImage container-fluid">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn"
+        >&times;</span
+      >
+      <img id="expandedImg" />
+      <div id="imgtext"></div>
+    </div>
+    <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        expandImg.src = imgs.src;
+        expandImg.parentElement.style.display = "block";
+      }
+    </script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
