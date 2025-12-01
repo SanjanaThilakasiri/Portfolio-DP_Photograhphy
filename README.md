@@ -112,7 +112,21 @@ This project is ideal for:
 * Demonstrating CSS hover animations and images
 
 ---
+## 🖼️ ScreenShots
 
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/ad66b799-1ba6-428e-a453-51e8b3daed66" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/44012fdf-567f-4ecc-bfa2-83c227ae5211" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/826d6da0-e939-44ab-8b5c-ba4a10fdbe40" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/c5a608a4-d86c-4d1a-8cd9-85e7bce3741a" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/61cbcab8-c3c8-489f-ab0b-8bb4a7f9adf9" />
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/299d127d-a37c-41f1-91ea-8cb468af3f9c" />
+
+
+
+
+
+
+---
 
 ## 👤 Author
 
